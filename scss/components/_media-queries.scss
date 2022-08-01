@@ -5,15 +5,11 @@
 
     .container {
         max-width: 1400px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        @include centered;
     }
 
     .centered {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        @include centered;
     }
 
     .row {
@@ -83,10 +79,10 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
-    }
 
-    .nav-link {
-        flex-basis: 100px;
+            &-link {
+            flex-basis: 100px;
+        }
     }
 
     .btn {
