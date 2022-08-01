@@ -3,8 +3,7 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato',
-        sans-serif;
+    font-family: $font-stack-primary;
     ;
     color: $color-secondary;
     box-sizing: border-box;
@@ -23,15 +22,22 @@ a {
 /*              Typography                       */
 /* ============================================= */
 
-.headline-primary {
+.headline {
+
+    &-primary {
     color: $color-primary;
     margin-left: 10px;
 }
 
-.headline-secondary {
-    font-weight: $weight-secondary;
-    color: $color-secondary;
+    &-secondary {
+        font-weight: $weight-secondary;
+        color: $color-secondary;
+    }
 }
+
+
+
+
 
 .link {
     color: $color-tertiary;
