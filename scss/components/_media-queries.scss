@@ -21,6 +21,14 @@
         justify-content: center;
         margin-top: 0;
         align-items: center;
+
+        // @for $i from 1 through 12 {
+        
+        //         .col-#{$i} {
+        //             flex-basis: calc(100% / 12) * $i;
+        //         }
+        
+        //     }
     }
 
     [class^=col]+[class^=col] {
